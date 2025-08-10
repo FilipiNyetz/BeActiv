@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5143F52E495DC600AEF985 /* BeActiv Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC5143F42E495DC600AEF985 /* BeActiv Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC5143DF2E495DC600AEF985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5143C92E495DC500AEF985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5143D02E495DC500AEF985;
+			remoteInfo = BeActiv;
+		};
+		CC5143E92E495DC600AEF985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5143C92E495DC500AEF985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5143D02E495DC500AEF985;
+			remoteInfo = BeActiv;
+		};
+		CC5143F62E495DC600AEF985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5143C92E495DC500AEF985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5143F32E495DC600AEF985;
+			remoteInfo = "BeActiv Watch App";
+		};
+		CC5144042E495DC600AEF985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5143C92E495DC500AEF985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5143F32E495DC600AEF985;
+			remoteInfo = "BeActiv Watch App";
+		};
+		CC51440E2E495DC600AEF985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5143C92E495DC500AEF985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC5143F32E495DC600AEF985;
+			remoteInfo = "BeActiv Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC51441A2E495DC600AEF985 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CC5143F52E495DC600AEF985 /* BeActiv Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC5143D12E495DC500AEF985 /* BeActiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeActiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5143DE2E495DC600AEF985 /* BeActivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeActivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5143E82E495DC600AEF985 /* BeActivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeActivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5143F42E495DC600AEF985 /* BeActiv Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeActiv Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5144032E495DC600AEF985 /* BeActiv Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeActiv Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51440D2E495DC600AEF985 /* BeActiv Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeActiv Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC5143D32E495DC500AEF985 /* BeActiv */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeActiv;
+			sourceTree = "<group>";
+		};
+		CC5143E12E495DC600AEF985 /* BeActivTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeActivTests;
+			sourceTree = "<group>";
+		};
+		CC5143EB2E495DC600AEF985 /* BeActivUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeActivUITests;
+			sourceTree = "<group>";
+		};
+		CC5143F82E495DC600AEF985 /* BeActiv Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BeActiv Watch App";
+			sourceTree = "<group>";
+		};
+		CC5144062E495DC600AEF985 /* BeActiv Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BeActiv Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CC5144102E495DC600AEF985 /* BeActiv Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BeActiv Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5143CE2E495DC500AEF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143DB2E495DC600AEF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143E52E495DC600AEF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143F12E495DC600AEF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5144002E495DC600AEF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51440A2E495DC600AEF985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5143C82E495DC500AEF985 = {
+			isa = PBXGroup;
+			children = (
+				CC5143D32E495DC500AEF985 /* BeActiv */,
+				CC5143E12E495DC600AEF985 /* BeActivTests */,
+				CC5143EB2E495DC600AEF985 /* BeActivUITests */,
+				CC5143F82E495DC600AEF985 /* BeActiv Watch App */,
+				CC5144062E495DC600AEF985 /* BeActiv Watch AppTests */,
+				CC5144102E495DC600AEF985 /* BeActiv Watch AppUITests */,
+				CC5143D22E495DC500AEF985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5143D22E495DC500AEF985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5143D12E495DC500AEF985 /* BeActiv.app */,
+				CC5143DE2E495DC600AEF985 /* BeActivTests.xctest */,
+				CC5143E82E495DC600AEF985 /* BeActivUITests.xctest */,
+				CC5143F42E495DC600AEF985 /* BeActiv Watch App.app */,
+				CC5144032E495DC600AEF985 /* BeActiv Watch AppTests.xctest */,
+				CC51440D2E495DC600AEF985 /* BeActiv Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5143D02E495DC500AEF985 /* BeActiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC51441B2E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv" */;
+			buildPhases = (
+				CC5143CD2E495DC500AEF985 /* Sources */,
+				CC5143CE2E495DC500AEF985 /* Frameworks */,
+				CC5143CF2E495DC500AEF985 /* Resources */,
+				CC51441A2E495DC600AEF985 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5143F72E495DC600AEF985 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC5143D32E495DC500AEF985 /* BeActiv */,
+			);
+			name = BeActiv;
+			packageProductDependencies = (
+			);
+			productName = BeActiv;
+			productReference = CC5143D12E495DC500AEF985 /* BeActiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC5143DD2E495DC600AEF985 /* BeActivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC51441E2E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActivTests" */;
+			buildPhases = (
+				CC5143DA2E495DC600AEF985 /* Sources */,
+				CC5143DB2E495DC600AEF985 /* Frameworks */,
+				CC5143DC2E495DC600AEF985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5143E02E495DC600AEF985 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC5143E12E495DC600AEF985 /* BeActivTests */,
+			);
+			name = BeActivTests;
+			packageProductDependencies = (
+			);
+			productName = BeActivTests;
+			productReference = CC5143DE2E495DC600AEF985 /* BeActivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC5143E72E495DC600AEF985 /* BeActivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5144212E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActivUITests" */;
+			buildPhases = (
+				CC5143E42E495DC600AEF985 /* Sources */,
+				CC5143E52E495DC600AEF985 /* Frameworks */,
+				CC5143E62E495DC600AEF985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5143EA2E495DC600AEF985 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC5143EB2E495DC600AEF985 /* BeActivUITests */,
+			);
+			name = BeActivUITests;
+			packageProductDependencies = (
+			);
+			productName = BeActivUITests;
+			productReference = CC5143E82E495DC600AEF985 /* BeActivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CC5143F32E495DC600AEF985 /* BeActiv Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5144172E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv Watch App" */;
+			buildPhases = (
+				CC5143F02E495DC600AEF985 /* Sources */,
+				CC5143F12E495DC600AEF985 /* Frameworks */,
+				CC5143F22E495DC600AEF985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC5143F82E495DC600AEF985 /* BeActiv Watch App */,
+			);
+			name = "BeActiv Watch App";
+			packageProductDependencies = (
+			);
+			productName = "BeActiv Watch App";
+			productReference = CC5143F42E495DC600AEF985 /* BeActiv Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC5144022E495DC600AEF985 /* BeActiv Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5144242E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv Watch AppTests" */;
+			buildPhases = (
+				CC5143FF2E495DC600AEF985 /* Sources */,
+				CC5144002E495DC600AEF985 /* Frameworks */,
+				CC5144012E495DC600AEF985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5144052E495DC600AEF985 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC5144062E495DC600AEF985 /* BeActiv Watch AppTests */,
+			);
+			name = "BeActiv Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "BeActiv Watch AppTests";
+			productReference = CC5144032E495DC600AEF985 /* BeActiv Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC51440C2E495DC600AEF985 /* BeActiv Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5144272E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv Watch AppUITests" */;
+			buildPhases = (
+				CC5144092E495DC600AEF985 /* Sources */,
+				CC51440A2E495DC600AEF985 /* Frameworks */,
+				CC51440B2E495DC600AEF985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC51440F2E495DC600AEF985 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC5144102E495DC600AEF985 /* BeActiv Watch AppUITests */,
+			);
+			name = "BeActiv Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "BeActiv Watch AppUITests";
+			productReference = CC51440D2E495DC600AEF985 /* BeActiv Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5143C92E495DC500AEF985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					CC5143D02E495DC500AEF985 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CC5143DD2E495DC600AEF985 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CC5143D02E495DC500AEF985;
+					};
+					CC5143E72E495DC600AEF985 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CC5143D02E495DC500AEF985;
+					};
+					CC5143F32E495DC600AEF985 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CC5144022E495DC600AEF985 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CC5143F32E495DC600AEF985;
+					};
+					CC51440C2E495DC600AEF985 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CC5143F32E495DC600AEF985;
+					};
+				};
+			};
+			buildConfigurationList = CC5143CC2E495DC500AEF985 /* Build configuration list for PBXProject "BeActiv" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5143C82E495DC500AEF985;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CC5143D22E495DC500AEF985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5143D02E495DC500AEF985 /* BeActiv */,
+				CC5143DD2E495DC600AEF985 /* BeActivTests */,
+				CC5143E72E495DC600AEF985 /* BeActivUITests */,
+				CC5143F32E495DC600AEF985 /* BeActiv Watch App */,
+				CC5144022E495DC600AEF985 /* BeActiv Watch AppTests */,
+				CC51440C2E495DC600AEF985 /* BeActiv Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5143CF2E495DC500AEF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143DC2E495DC600AEF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143E62E495DC600AEF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143F22E495DC600AEF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5144012E495DC600AEF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51440B2E495DC600AEF985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5143CD2E495DC500AEF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143DA2E495DC600AEF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143E42E495DC600AEF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143F02E495DC600AEF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5143FF2E495DC600AEF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5144092E495DC600AEF985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5143E02E495DC600AEF985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5143D02E495DC500AEF985 /* BeActiv */;
+			targetProxy = CC5143DF2E495DC600AEF985 /* PBXContainerItemProxy */;
+		};
+		CC5143EA2E495DC600AEF985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5143D02E495DC500AEF985 /* BeActiv */;
+			targetProxy = CC5143E92E495DC600AEF985 /* PBXContainerItemProxy */;
+		};
+		CC5143F72E495DC600AEF985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5143F32E495DC600AEF985 /* BeActiv Watch App */;
+			targetProxy = CC5143F62E495DC600AEF985 /* PBXContainerItemProxy */;
+		};
+		CC5144052E495DC600AEF985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5143F32E495DC600AEF985 /* BeActiv Watch App */;
+			targetProxy = CC5144042E495DC600AEF985 /* PBXContainerItemProxy */;
+		};
+		CC51440F2E495DC600AEF985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC5143F32E495DC600AEF985 /* BeActiv Watch App */;
+			targetProxy = CC51440E2E495DC600AEF985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC5144152E495DC600AEF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC5144162E495DC600AEF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CC5144182E495DC600AEF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.com.filipi.BeActiv;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActiv.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		CC5144192E495DC600AEF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.com.filipi.BeActiv;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActiv.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		CC51441C2E495DC600AEF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC51441D2E495DC600AEF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC51441F2E495DC600AEF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeActiv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeActiv";
+			};
+			name = Debug;
+		};
+		CC5144202E495DC600AEF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeActiv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeActiv";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5144222E495DC600AEF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeActiv;
+			};
+			name = Debug;
+		};
+		CC5144232E495DC600AEF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipi.BeActivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeActiv;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5144252E495DC600AEF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.filipi.BeActiv-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeActiv Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeActiv Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		CC5144262E495DC600AEF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.filipi.BeActiv-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeActiv Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeActiv Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		CC5144282E495DC600AEF985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.filipi.BeActiv-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BeActiv Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		CC5144292E495DC600AEF985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2XBHGB4LG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.filipi.BeActiv-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BeActiv Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5143CC2E495DC500AEF985 /* Build configuration list for PBXProject "BeActiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5144152E495DC600AEF985 /* Debug */,
+				CC5144162E495DC600AEF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5144172E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5144182E495DC600AEF985 /* Debug */,
+				CC5144192E495DC600AEF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC51441B2E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51441C2E495DC600AEF985 /* Debug */,
+				CC51441D2E495DC600AEF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC51441E2E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51441F2E495DC600AEF985 /* Debug */,
+				CC5144202E495DC600AEF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5144212E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5144222E495DC600AEF985 /* Debug */,
+				CC5144232E495DC600AEF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5144242E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5144252E495DC600AEF985 /* Debug */,
+				CC5144262E495DC600AEF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5144272E495DC600AEF985 /* Build configuration list for PBXNativeTarget "BeActiv Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5144282E495DC600AEF985 /* Debug */,
+				CC5144292E495DC600AEF985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5143C92E495DC500AEF985 /* Project object */;
+}
