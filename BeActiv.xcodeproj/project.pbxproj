@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC5143F52E495DC600AEF985 /* BeActiv Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC5143F42E495DC600AEF985 /* BeActiv Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC5144312E4963DC00AEF985 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5144302E4963DC00AEF985 /* HealthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		CC5143F42E495DC600AEF985 /* BeActiv Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeActiv Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5144032E495DC600AEF985 /* BeActiv Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeActiv Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC51440D2E495DC600AEF985 /* BeActiv Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeActiv Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5144302E4963DC00AEF985 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -153,6 +155,7 @@
 		CC5143C82E495DC500AEF985 = {
 			isa = PBXGroup;
 			children = (
+				CC5144302E4963DC00AEF985 /* HealthManager.swift */,
 				CC5143D32E495DC500AEF985 /* BeActiv */,
 				CC5143E12E495DC600AEF985 /* BeActivTests */,
 				CC5143EB2E495DC600AEF985 /* BeActivUITests */,
@@ -425,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5144312E4963DC00AEF985 /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,12 +619,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BeActiv Watch App/BeActiv Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2XBHGB4LG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Permissao para monitorar dados de saude do usuario";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Permissao para monitorar dados de saude do usuario";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.com.filipi.BeActiv;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -644,12 +651,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BeActiv Watch App/BeActiv Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2XBHGB4LG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Permissao para monitorar dados de saude do usuario";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Permissao para monitorar dados de saude do usuario";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.com.filipi.BeActiv;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -674,12 +684,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeActiv/BeActiv.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2XBHGB4LG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Permissao para acessar dados do saude";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Permissao para monitorar dados de saude do usuario";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -705,12 +718,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeActiv/BeActiv.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2XBHGB4LG5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BeActiv;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Permissao para acessar dados do saude";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Permissao para monitorar dados de saude do usuario";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

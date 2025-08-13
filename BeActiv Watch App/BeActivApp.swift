@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct BeActiv_Watch_AppApp: App {
+    
+    @StateObject var manager = WorkoutManager()
+    @StateObject var wcSessionDelegate = WatchWCSessionDelegate()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeViewWatch(manager: manager)
+                .onAppear {
+                    print("*** Phone Content View Appeared ***")
+                    wcSessionDelegate.startSession()
+                }
+            
         }
     }
 }

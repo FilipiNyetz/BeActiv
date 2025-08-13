@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct BeActivApp: App {
+    @StateObject var wcSessionDelegate = PhoneWCSessionDelegate()
+    @StateObject var manager = HealthManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(manager: manager)
+                .onAppear {
+                        print("*** Phone Content View Appeared ***")
+                        wcSessionDelegate.startSession()
+                }
         }
     }
 }
