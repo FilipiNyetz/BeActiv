@@ -42,8 +42,10 @@ class WorkoutManager: NSObject, ObservableObject{
         let workouts = HKObjectType.workoutType()
         let hearthRate = HKQuantityType(.heartRate)
         let distance = HKQuantityType(.distanceWalkingRunning)
+        let vo2Max = HKQuantityType(.vo2Max)
+     
         
-        let healthTypes:Set = [steps, calories, workouts, hearthRate, distance]
+        let healthTypes:Set = [steps, calories, workouts, hearthRate, distance,vo2Max]
         //Seta quais valores serão lidos e compartilhados
         
         Task{

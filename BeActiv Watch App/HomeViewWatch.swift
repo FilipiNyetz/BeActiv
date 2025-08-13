@@ -34,7 +34,7 @@ struct HomeViewWatch: View {
                     Text("Go")
                 }.simultaneousGesture(TapGesture().onEnded {
                     print("Vai iniciar")
-                    manager.startWorkout(workoutType: .running)
+                    manager.startWorkout(workoutType: .soccer)
                     
                     
                     print("\(manager.isActive)")

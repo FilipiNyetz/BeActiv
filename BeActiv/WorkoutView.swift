@@ -13,7 +13,7 @@ struct Workout: Identifiable{
     let duration: Int
     let calories: Int
     let distance: Int
-//    let frequencyHeart: Int
+    let frequencyHeart: Int
 }
 
 struct WorkoutView: View {
