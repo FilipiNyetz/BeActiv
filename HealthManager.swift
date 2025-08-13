@@ -88,7 +88,7 @@ class HealthManager: ObservableObject {
             end: Date.endOfToday
         )
 
-        let workoutPredicate = HKQuery.predicateForWorkouts(with: .other)
+        let workoutPredicate = HKQuery.predicateForWorkouts(with: .running)
         let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [timePredicate, workoutPredicate])
         
         let query = HKSampleQuery(sampleType: workout, predicate: predicate, limit: 25, sortDescriptors: nil){_, sample, error in
@@ -145,7 +145,7 @@ class HealthManager: ObservableObject {
         let workout = HKObjectType.workoutType()
         
         let timePredicate = HKQuery.predicateForSamples(withStart: .startOfWeek, end: .endOfWeek)
-        let workoutPredicate = HKQuery.predicateForWorkouts(with: .other)
+        let workoutPredicate = HKQuery.predicateForWorkouts(with: .running)
         let predicate = NSCompoundPredicate(andPredicateWithSubpredicates: [timePredicate, workoutPredicate])
         let query = HKSampleQuery(sampleType: workout, predicate: predicate, limit: 10, sortDescriptors: nil){_, sample, error in
             
@@ -164,11 +164,17 @@ class HealthManager: ObservableObject {
                 print(workout.totalEnergyBurned)
                 
                 var calorias: Int = 0
+                var distancia: Int = 0
+                
+                if let distance = workout.totalDistance?.doubleValue(for: .meter()) {
+                    print("Distância: \(distance) metros")
+                    distancia = Int(distance)
+                }
                 if let caloriesBurned = workout.totalEnergyBurned?.doubleValue(for: .kilocalorie()) {
                     calorias = Int(caloriesBurned)
                 }
                 
-                let workoutSummary = Workout(id:UUID(),idWorkoutType:Int(workout.workoutActivityType.rawValue), duration: count, calories: calorias, distance: 0)
+                let workoutSummary = Workout(id:UUID(),idWorkoutType:Int(workout.workoutActivityType.rawValue), duration: count, calories: calorias, distance: distancia)
                 
                 DispatchQueue.main.async {
                     self.workouts.append(workoutSummary)
