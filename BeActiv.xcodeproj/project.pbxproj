@@ -74,6 +74,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC28A0F12E4E13D7002597C8 /* funcoesAuxiliaresHealthManager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = funcoesAuxiliaresHealthManager;
+			sourceTree = "<group>";
+		};
 		CC5143D32E495DC500AEF985 /* BeActiv */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BeActiv;
@@ -155,6 +160,7 @@
 		CC5143C82E495DC500AEF985 = {
 			isa = PBXGroup;
 			children = (
+				CC28A0F12E4E13D7002597C8 /* funcoesAuxiliaresHealthManager */,
 				CC5144302E4963DC00AEF985 /* HealthManager.swift */,
 				CC5143D32E495DC500AEF985 /* BeActiv */,
 				CC5143E12E495DC600AEF985 /* BeActivTests */,
@@ -197,6 +203,7 @@
 				CC5143F72E495DC600AEF985 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				CC28A0F12E4E13D7002597C8 /* funcoesAuxiliaresHealthManager */,
 				CC5143D32E495DC500AEF985 /* BeActiv */,
 			);
 			name = BeActiv;
@@ -642,7 +649,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Debug;
 		};
@@ -675,7 +682,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Release;
 		};
@@ -844,7 +851,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeActiv Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeActiv Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Debug;
 		};
@@ -865,7 +872,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeActiv Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeActiv Watch App";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Release;
 		};
@@ -884,7 +891,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "BeActiv Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Debug;
 		};
@@ -904,7 +911,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "BeActiv Watch App";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Release;
 		};

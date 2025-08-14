@@ -29,6 +29,7 @@ struct WorkoutView: View {
             Text("Time:\(workout.duration)")
             Text("Calories:\(workout.calories)")
             Text("Distancias:\(workout.distance)")
+            Text("frequencyHeart:\(workout.frequencyHeart)")
         }
         .background(Color.gray.opacity(0.4))
         .frame(width: 300, height: 100)
