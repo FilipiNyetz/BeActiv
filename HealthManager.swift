@@ -40,7 +40,6 @@ extension Date {
     
 }
 
-
 class HealthManager: ObservableObject {
     
     //Instancia a classe que controla do DB do healthKit, criando o objeto capaz de acessar e gerenciar os dados no healthKit
@@ -48,6 +47,7 @@ class HealthManager: ObservableObject {
     
     //Variavel que aramazena um array de workouts e pode ser acessada pela view
     @Published var workouts: [Workout] = []
+    @Published var mediaBatimentosCardiacos: Double = 0.0
     
     init(){
         //Inicia a classe manager declarando quais serão as variaveis e os tipos de dados solicitados ao HealthKit
@@ -183,39 +183,33 @@ class HealthManager: ObservableObject {
                 // Distância
                 let distance = workout.totalDistance?.doubleValue(for: .meter()) ?? 0
               
-                //Declara a variavel para armazenar a media dos BPM durante todo o workout, inicia com 0
-                var mediaHeartRate: Double = 0
+//                //Declara a variavel para armazenar a media dos BPM duante todo o workout, inicia com 0
+                //Chama a funcao para receber o retorno dela
+//                let mediaHeartRate: Double = queryFrequenciaCardiaca(workout: workout, healthStore: self.healthStore, completionHandler: mediaFrequencia)
                 
                 
-                // Funcao para pegar o BPM médio
-                mediaHeartRate = queryFrequenciaCardiaca(workout: workout, healthStore: self.healthStore)
                 
-                
-                if let v02MaxType = HKQuantityType.quantityType(forIdentifier: .vo2Max) {
-                    let v02MaxPredicate = HKQuery.predicateForObjects(from: workout)
-                    let v02MaxQuery = HKSampleQuery(sampleType: v02MaxType, predicate: v02MaxPredicate, limit: HKObjectQueryNoLimit, sortDescriptors: nil) { _, samples, error in
-                        
-                        var v02Max: Double = 0
-                        
-                        if let v02MaxSamples = samples as? [HKQuantitySample], !v02MaxSamples.isEmpty {
-                            let v02MaxValues = v02MaxSamples.map {
-                                $0.quantity.doubleValue(for: HKUnit.count().unitDivided(by: .minute())) }
-                            v02Max = v02MaxValues.reduce(0, +) / Double(v02MaxValues.count)
-                        }
-                        
+                queryFrequenciaCardiaca(workout: workout, healthStore: self.healthStore){mediaHeartRate in
+                    print("A frequência média é: \(mediaHeartRate)")
+                    let workoutSummary = Workout(
+                        id: UUID(),
+                        idWorkoutType: Int(workout.workoutActivityType.rawValue),
+                        duration: durationMinutes,
+                        calories: Int(calories),
+                        distance: Int(distance),
+                        frequencyHeart: mediaHeartRate
+                    )
+                    DispatchQueue.main.async {
+                        self.workouts.append(workoutSummary)
                     }
-                    self.healthStore.execute(v02MaxQuery)
-                    
+                   
                 }
                 
-                let workoutSummary = Workout(
-                    id: UUID(),
-                    idWorkoutType: Int(workout.workoutActivityType.rawValue),
-                    duration: durationMinutes,
-                    calories: Int(calories),
-                    distance: Int(distance),
-                    frequencyHeart: Int(mediaHeartRate)
-                )
+                
+                //Declara o sumário do treino, que é uma Struct do tipo Workout, então possui um id, um idWorkoutType, uma duracao, calorias, distancia e frequencyHeart. Dessa forma passa todos os dados necessários para conformar com o Workout
+                
+                
+                
             }
         }
         healthStore.execute(query)
