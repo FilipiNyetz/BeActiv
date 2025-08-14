@@ -56,8 +56,9 @@ class HealthManager: ObservableObject {
         let workouts = HKObjectType.workoutType()
         let hearthRate = HKQuantityType(.heartRate)
         let distance = HKQuantityType(.distanceWalkingRunning)
+        let vo2max = HKQuantityType(.vo2Max)
         //Seta um array com todos os valores que precisam ser solicitados para permissao do usuario
-        let healthTypes:Set = [steps, calories, workouts, hearthRate, distance]
+        let healthTypes:Set = [steps, calories, workouts, hearthRate, distance, vo2max]
         
         
         Task{
@@ -202,8 +203,9 @@ class HealthManager: ObservableObject {
                     DispatchQueue.main.async {
                         self.workouts.append(workoutSummary)
                     }
-                   
                 }
+                
+//                queryV02max(workout: workout, healthStore: self.healthStore)
                 
                 
                 //Declara o sumário do treino, que é uma Struct do tipo Workout, então possui um id, um idWorkoutType, uma duracao, calorias, distancia e frequencyHeart. Dessa forma passa todos os dados necessários para conformar com o Workout

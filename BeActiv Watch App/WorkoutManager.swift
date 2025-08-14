@@ -69,52 +69,7 @@ class WorkoutManager: NSObject, ObservableObject{
     private var timer: Timer?
     private var startDate: Date?//Recebe o momento inicial do treino
     
-    //Função para começar treino
-    //    func startWorkout() {
-    //        print("Chamou na manager: vai iniciar")
-    //        //Cria configuração com base na instancia da classe HKWorkoutConfiguration()
-    //        let configuration = HKWorkoutConfiguration()
-    //        //Define valores para configurar o objeto criado pela classe HKWorkoutConfiguration, ou seja define configuracoes do treino
-    //        configuration.activityType = workout
-    //        configuration.locationType = .outdoor
-    //
-    //
-    //        isActive = true//estado do treino
-    //        startDate = Date()//Momento inicial do treino
-    //        elapsedTime = 0//tempo decorrido
-    //
-    //        do {
-    //            //Inicia a sessão do treino e o builder para monitorar os dados em live
-    //            session = try HKWorkoutSession(healthStore: healthStore, configuration: configuration)
-    //            builder = session?.associatedWorkoutBuilder()
-    //        } catch {
-    //            print("Erro criando sessão de treino: \(error.localizedDescription)")
-    //            return
-    //        }
-    //
-    //        //Configura como os dados do builder serão monitorados, se ele existir, informa para ele a fonte dos dados DataSource
-    //        builder?.dataSource = HKLiveWorkoutDataSource(
-    //            healthStore: healthStore,
-    //            workoutConfiguration: configuration
-    //        )
-    //
-    //        //Momento em que a sessão é iniciada
-    //        let startDate = Date()
-    //        session?.startActivity(with: startDate)//Inicia a sessao com o momento inicial do treino
-    //        //Inicia o builder no momento inicial do treino e começa a monitorar e observar os dados do treino que foram definidos como parametro de monitramento da sessão
-    //        builder?.beginCollection(withStart: startDate) { success, error in
-    //            if let error = error {
-    //                print("Erro iniciando coleta: \(error.localizedDescription)")
-    //
-    //            } else {
-    //                print("Coleta iniciada com sucesso.")
-    //            }
-    //        }
-    //
-    //        startTimer()//Chama a func que comeca o timer
-    //    }
-    
-    
+   
     let healthStore = HKHealthStore()
     var session: HKWorkoutSession?
     var builder: HKLiveWorkoutBuilder?

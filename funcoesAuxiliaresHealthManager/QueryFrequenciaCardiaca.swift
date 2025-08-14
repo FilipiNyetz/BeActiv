@@ -34,7 +34,6 @@ func queryFrequenciaCardiaca(workout: HKWorkout, healthStore: HKHealthStore, com
                 // Calcula a média dividindo pelo total de amostras
                 mediaFrequencia = somaFrequencia/Double(hrSamples.count)
                 completionHandler(mediaFrequencia)
-                print("A frequencia media é: \(mediaFrequencia)")
             }
             
             
